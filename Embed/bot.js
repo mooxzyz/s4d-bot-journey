@@ -34,7 +34,7 @@ let logs = require("discord-logs")
                         partials: ["REACTION"]
                     });
                     logs(s4d.client);         
-                    await s4d.client.login('OTA1MTYzMDkyODM5Nzc2MzM2.YYGE0g.2IXi8jG9-nVACVlFuPlBcc9Civ4').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
+                    await s4d.client.login('').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
 
 s4d.client.on('messageCreate', async (s4dmessage) => {
   if ((s4dmessage.content) == '!ping') {
