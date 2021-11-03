@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Hello This Is My S4D Journey
 
-You can use the [editor on GitHub](https://github.com/mooxzyz/s4d-bot-journey/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+You can click above to look at my repository!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+If you would like help with s4d coding join the discord! 
 
-### Markdown
+### The Discord:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The discord link for scratch for discord itself is: https://discord.gg/xeRCSzMrjw
+The discord link for the creators discord is: https://discord.gg/eTmn6XcPPb
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Hello There (:<
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### CYA
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mooxzyz/s4d-bot-journey/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+This Website Will Be Updated
