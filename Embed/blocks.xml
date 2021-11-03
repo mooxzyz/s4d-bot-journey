@@ -1,0 +1,74 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="s4d_login" id="$fyE6M~_H?CKacYKk$.o" x="397" y="60">
+    <value name="TOKEN">
+      <block type="text" id="2b+TrsLKG~ek/k7bO+np">
+        <field name="TEXT">OTA1MTYzMDkyODM5Nzc2MzM2.YYGE0g.2IXi8jG9-nVACVlFuPlBcc9Civ4</field>
+      </block>
+    </value>
+  </block>
+  <block type="s4d_on_message" id="}Mg5MHq24!%3W9;h1$wF" x="107" y="202">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="PMZS!^sKQ)2)L0#Zl3^+">
+        <value name="IF0">
+          <block type="logic_compare" id="OoL:eXr!G?a}vhhSF_`Y">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="hs)]o6DWVOyAHqc~G2Xu"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="4cz9#@(X_pA2PEqQ@`uA">
+                <field name="TEXT">!ping</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_create_embed_then" id="ovnDU:p;W4}QPj1]FqY]">
+            <statement name="THEN">
+              <block type="s4d_create_embed_then_set_color" id="hm]0(Z|t2IHqeIAiKCD0">
+                <value name="COLOR">
+                  <block type="colour_picker" id="SHs(.`7B0hkyEOLecnHp">
+                    <field name="COLOUR">#333399</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="s4d_create_embed_then_set_title" id="4,gg@nA/q~ObbD|MoWP(">
+                    <value name="TITLE">
+                      <block type="text" id="cBOQ=!jY2cCb~upc*|d}">
+                        <field name="TEXT">Bots Ping:</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="s4d_create_embed_then_set_description" id="/Zm5sQ5tJ-Z7MEu3/7rX">
+                        <value name="DESCRIPTION">
+                          <block type="text_join" id="ASgDax{:DvYkwJJKU?wy">
+                            <mutation items="2"></mutation>
+                            <value name="ADD0">
+                              <block type="text" id="0ZrXtCm9G`pIU3{!1OGL">
+                                <field name="TEXT"></field>
+                              </block>
+                            </value>
+                            <value name="ADD1">
+                              <block type="s4d_bot_ping" id=".KMxnu-RJB3NYheZ6qK."></block>
+                            </value>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="s4d_create_embed_then_send" id="2i!A^~/}V4|4FzUS4[02">
+                <value name="CHANNEL">
+                  <block type="s4d_message_channel" id="|pK3Fr.@4tY{YL*u9B{?"></block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
